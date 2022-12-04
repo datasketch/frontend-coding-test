@@ -51,6 +51,10 @@ The form should also include a field or control that allows the user to specify 
 
 Additionally, the app should provide navigation options that allow the user to easily return to the homepage or other relevant pages, such as the task list for the person to whom the new task is attached. This can be achieved using links or other navigation controls on the page.
 
+## Submit
+
+Once you have finished completing the tasks, please post a link to your GitHub repository in the [discussions section]((https://github.com/datasketch/frontend-coding-test/discussions/1)). By providing the link to your repository, we will be able to access your code and see how you have implemented the required functionality, as well as any additional features or improvements you have added. Best of luck!
+
 ## DB Schema
 
 The following is the database schema:
