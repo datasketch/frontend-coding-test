@@ -1,0 +1,265 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "fullName": "John Doe",
+      "age": 32,
+      "occupation": "Software Developer",
+      "nickname": "Johnny",
+      "gender": "Male"
+    },
+    {
+      "id": 2,
+      "fullName": "Jane Smith",
+      "age": 27,
+      "occupation": "Doctor",
+      "nickname": "Jane",
+      "gender": "Female"
+    },
+    {
+      "id": 3,
+      "fullName": "Bob Johnson",
+      "age": 45,
+      "occupation": "Teacher",
+      "nickname": "Bobby",
+      "gender": "Male"
+    },
+    {
+      "id": 4,
+      "fullName": "Alice Williams",
+      "age": 29,
+      "occupation": "Lawyer",
+      "nickname": "Ali",
+      "gender": "Female"
+    },
+    {
+      "id": 5,
+      "fullName": "Michael Brown",
+      "age": 41,
+      "occupation": "Construction Worker",
+      "nickname": "Mike",
+      "gender": "Male"
+    },
+    {
+      "id": 6,
+      "fullName": "Emily Davis",
+      "age": 36,
+      "occupation": "Nurse",
+      "nickname": "Em",
+      "gender": "Female"
+    },
+    {
+      "id": 7,
+      "fullName": "David Anderson",
+      "age": 38,
+      "occupation": "Police Officer",
+      "nickname": "Dave",
+      "gender": "Male"
+    },
+    {
+      "id": 8,
+      "fullName": "Samantha Taylor",
+      "age": 26,
+      "occupation": "Graphic Designer",
+      "nickname": "Sam",
+      "gender": "Female"
+    },
+    {
+      "id": 9,
+      "fullName": "William Rodriguez",
+      "age": 33,
+      "occupation": "Accountant",
+      "nickname": "Will",
+      "gender": "Male"
+    },
+    {
+      "id": 10,
+      "fullName": "Ashley Johnson",
+      "age": 30,
+      "occupation": "Salesperson",
+      "nickname": "Ash",
+      "gender": "Female"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Task 1",
+      "description": "This is the first task on the list.",
+      "completed": false,
+      "startDate": "2022-12-04",
+      "endDate": null,
+      "peopleId": 1
+    },
+    {
+      "id": 2,
+      "title": "Task 2",
+      "description": "This is the second task on the list.",
+      "completed": true,
+      "startDate": "2022-12-04",
+      "endDate": "2022-12-05",
+      "peopleId": 2
+    },
+    {
+      "id": 3,
+      "title": "Task 3",
+      "description": "This is the third task on the list.",
+      "completed": false,
+      "startDate": "2022-12-04",
+      "endDate": null,
+      "peopleId": 3
+    },
+    {
+      "id": 4,
+      "title": "Task 4",
+      "description": "This is the fourth task on the list.",
+      "completed": true,
+      "startDate": "2022-12-04",
+      "endDate": "2022-12-06",
+      "peopleId": 4
+    },
+    {
+      "id": 5,
+      "title": "Task 5",
+      "description": "This is the fifth task on the list.",
+      "completed": false,
+      "startDate": "2022-12-04",
+      "endDate": null,
+      "peopleId": 5
+    },
+    {
+      "id": 6,
+      "title": "Task 6",
+      "description": "This is the sixth task on the list.",
+      "completed": true,
+      "startDate": "2022-12-04",
+      "endDate": "2022-12-07",
+      "peopleId": 6
+    },
+    {
+      "id": 7,
+      "title": "Task 7",
+      "description": "This is the seventh task on the list.",
+      "completed": false,
+      "startDate": "2022-12-04",
+      "endDate": null,
+      "peopleId": 7
+    },
+    {
+      "id": 8,
+      "title": "Task 8",
+      "description": "This is the eighth task on the list.",
+      "completed": true,
+      "startDate": "2022-12-04",
+      "endDate": "2022-12-08",
+      "peopleId": 8
+    },
+    {
+      "id": 9,
+      "title": "Task 9",
+      "description": "This is the ninth task on the list.",
+      "completed": false,
+      "startDate": "2022-12-04",
+      "endDate": null,
+      "peopleId": 9
+    },
+    {
+      "id": 10,
+      "title": "Task 10",
+      "description": "This is the tenth task on the list.",
+      "completed": true,
+      "startDate": "2022-12-04",
+      "endDate": null
+    },
+    {
+      "id": 11,
+      "title": "Task 11",
+      "description": "This is the eleventh task on the list.",
+      "completed": false,
+      "startDate": "2022-12-04",
+      "endDate": null,
+      "peopleId": 1
+    },
+    {
+      "id": 12,
+      "title": "Task 12",
+      "description": "This is the twelfth task on the list.",
+      "completed": true,
+      "startDate": "2022-12-04",
+      "endDate": "2022-12-05",
+      "peopleId": 2
+    },
+    {
+      "id": 13,
+      "title": "Task 13",
+      "description": "This is the thirteenth task on the list.",
+      "completed": false,
+      "startDate": "2022-12-04",
+      "endDate": null,
+      "peopleId": 3
+    },
+    {
+      "id": 14,
+      "title": "Task 14",
+      "description": "This is the fourteenth task on the list.",
+      "completed": true,
+      "startDate": "2022-12-04",
+      "endDate": "2022-12-06",
+      "peopleId": 4
+    },
+    {
+      "id": 15,
+      "title": "Task 15",
+      "description": "This is the fifteenth task on the list.",
+      "completed": false,
+      "startDate": "2022-12-04",
+      "endDate": null,
+      "peopleId": 5
+    },
+    {
+      "id": 16,
+      "title": "Task 16",
+      "description": "This is the sixteenth task on the list.",
+      "completed": false,
+      "startDate": "2022-12-04",
+      "endDate": null,
+      "peopleId": 6
+    },
+    {
+      "id": 17,
+      "title": "Task 17",
+      "description": "This is the seventeenth task on the list.",
+      "completed": true,
+      "startDate": "2022-12-04",
+      "endDate": "2022-12-05",
+      "peopleId": 7
+    },
+    {
+      "id": 18,
+      "title": "Task 18",
+      "description": "This is the eighteenth task on the list.",
+      "completed": false,
+      "startDate": "2022-12-04",
+      "endDate": null,
+      "peopleId": 8
+    },
+    {
+      "id": 19,
+      "title": "Task 19",
+      "description": "This is the nineteenth task on the list.",
+      "completed": true,
+      "startDate": "2022-12-04",
+      "endDate": "2022-12-06",
+      "peopleId": 9
+    },
+    {
+      "id": 20,
+      "title": "Task 20",
+      "description": "This is the twentieth task on the list.",
+      "completed": false,
+      "startDate": "2022-12-04",
+      "endDate": null,
+      "peopleId": 10
+    }
+  ]
+}

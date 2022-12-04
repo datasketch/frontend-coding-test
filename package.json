@@ -1,0 +1,27 @@
+{
+  "name": "frontend-coding-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api": "json-server --watch db.json --port 3001",
+    "dev": "conc \"next dev\" \"npm run api\"",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.1",
+    "next": "^12.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "eslint": "8.29.0",
+    "eslint-config-next": "13.0.6"
+  }
+}
