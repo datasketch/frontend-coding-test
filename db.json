@@ -6,7 +6,8 @@
       "age": 32,
       "occupation": "Software Developer",
       "nickname": "Johnny",
-      "gender": "Male"
+      "gender": "Male",
+      "picture": "https://randomuser.me/api/portraits/lego/1.jpg"
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "age": 27,
       "occupation": "Doctor",
       "nickname": "Jane",
-      "gender": "Female"
+      "gender": "Female",
+      "picture": "https://randomuser.me/api/portraits/lego/2.jpg"
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "age": 45,
       "occupation": "Teacher",
       "nickname": "Bobby",
-      "gender": "Male"
+      "gender": "Male",
+      "picture": "https://randomuser.me/api/portraits/lego/3.jpg"
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@
       "age": 29,
       "occupation": "Lawyer",
       "nickname": "Ali",
-      "gender": "Female"
+      "gender": "Female",
+      "picture": "https://randomuser.me/api/portraits/lego/4.jpg"
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@
       "age": 41,
       "occupation": "Construction Worker",
       "nickname": "Mike",
-      "gender": "Male"
+      "gender": "Male",
+      "picture": "https://randomuser.me/api/portraits/lego/5.jpg"
     },
     {
       "id": 6,
@@ -46,7 +51,8 @@
       "age": 36,
       "occupation": "Nurse",
       "nickname": "Em",
-      "gender": "Female"
+      "gender": "Female",
+      "picture": "https://randomuser.me/api/portraits/lego/6.jpg"
     },
     {
       "id": 7,
@@ -54,7 +60,8 @@
       "age": 38,
       "occupation": "Police Officer",
       "nickname": "Dave",
-      "gender": "Male"
+      "gender": "Male",
+      "picture": "https://randomuser.me/api/portraits/lego/7.jpg"
     },
     {
       "id": 8,
@@ -62,7 +69,8 @@
       "age": 26,
       "occupation": "Graphic Designer",
       "nickname": "Sam",
-      "gender": "Female"
+      "gender": "Female",
+      "picture": "https://randomuser.me/api/portraits/lego/8.jpg"
     },
     {
       "id": 9,
@@ -70,15 +78,17 @@
       "age": 33,
       "occupation": "Accountant",
       "nickname": "Will",
-      "gender": "Male"
+      "gender": "Male",
+      "picture": "https://randomuser.me/api/portraits/lego/9.jpg"
     },
     {
       "id": 10,
       "fullName": "Ashley Johnson",
       "age": 30,
-      "occupation": "Salesperson",
+      "occupation": "Salespeople",
       "nickname": "Ash",
-      "gender": "Female"
+      "gender": "Female",
+      "picture": "https://randomuser.me/api/portraits/lego/1.jpg"
     }
   ],
   "tasks": [
@@ -89,7 +99,7 @@
       "completed": false,
       "startDate": "2022-12-04",
       "endDate": null,
-      "peopleId": 1
+      "personId": 1
     },
     {
       "id": 2,
@@ -98,7 +108,7 @@
       "completed": true,
       "startDate": "2022-12-04",
       "endDate": "2022-12-05",
-      "peopleId": 2
+      "personId": 2
     },
     {
       "id": 3,
@@ -107,7 +117,7 @@
       "completed": false,
       "startDate": "2022-12-04",
       "endDate": null,
-      "peopleId": 3
+      "personId": 3
     },
     {
       "id": 4,
@@ -116,7 +126,7 @@
       "completed": true,
       "startDate": "2022-12-04",
       "endDate": "2022-12-06",
-      "peopleId": 4
+      "personId": 4
     },
     {
       "id": 5,
@@ -125,7 +135,7 @@
       "completed": false,
       "startDate": "2022-12-04",
       "endDate": null,
-      "peopleId": 5
+      "personId": 5
     },
     {
       "id": 6,
@@ -134,7 +144,7 @@
       "completed": true,
       "startDate": "2022-12-04",
       "endDate": "2022-12-07",
-      "peopleId": 6
+      "personId": 6
     },
     {
       "id": 7,
@@ -143,7 +153,7 @@
       "completed": false,
       "startDate": "2022-12-04",
       "endDate": null,
-      "peopleId": 7
+      "personId": 7
     },
     {
       "id": 8,
@@ -152,7 +162,7 @@
       "completed": true,
       "startDate": "2022-12-04",
       "endDate": "2022-12-08",
-      "peopleId": 8
+      "personId": 8
     },
     {
       "id": 9,
@@ -161,7 +171,7 @@
       "completed": false,
       "startDate": "2022-12-04",
       "endDate": null,
-      "peopleId": 9
+      "personId": 9
     },
     {
       "id": 10,
@@ -178,7 +188,7 @@
       "completed": false,
       "startDate": "2022-12-04",
       "endDate": null,
-      "peopleId": 1
+      "personId": 1
     },
     {
       "id": 12,
@@ -187,7 +197,7 @@
       "completed": true,
       "startDate": "2022-12-04",
       "endDate": "2022-12-05",
-      "peopleId": 2
+      "personId": 2
     },
     {
       "id": 13,
@@ -196,7 +206,7 @@
       "completed": false,
       "startDate": "2022-12-04",
       "endDate": null,
-      "peopleId": 3
+      "personId": 3
     },
     {
       "id": 14,
@@ -205,7 +215,7 @@
       "completed": true,
       "startDate": "2022-12-04",
       "endDate": "2022-12-06",
-      "peopleId": 4
+      "personId": 4
     },
     {
       "id": 15,
@@ -214,7 +224,7 @@
       "completed": false,
       "startDate": "2022-12-04",
       "endDate": null,
-      "peopleId": 5
+      "personId": 5
     },
     {
       "id": 16,
@@ -223,7 +233,7 @@
       "completed": false,
       "startDate": "2022-12-04",
       "endDate": null,
-      "peopleId": 6
+      "personId": 6
     },
     {
       "id": 17,
@@ -232,7 +242,7 @@
       "completed": true,
       "startDate": "2022-12-04",
       "endDate": "2022-12-05",
-      "peopleId": 7
+      "personId": 7
     },
     {
       "id": 18,
@@ -241,7 +251,7 @@
       "completed": false,
       "startDate": "2022-12-04",
       "endDate": null,
-      "peopleId": 8
+      "personId": 8
     },
     {
       "id": 19,
@@ -250,7 +260,7 @@
       "completed": true,
       "startDate": "2022-12-04",
       "endDate": "2022-12-06",
-      "peopleId": 9
+      "personId": 9
     },
     {
       "id": 20,
@@ -259,7 +269,7 @@
       "completed": false,
       "startDate": "2022-12-04",
       "endDate": null,
-      "peopleId": 10
+      "personId": 10
     }
   ]
 }
