@@ -1,5 +1,12 @@
+import PageLayout from "../components/PageLayout";
+import ProfileList from "../components/Lists/Profiles/ProfileList";
+
 function HomePage() {
-  return <p>Página de inicio</p>
+  return (
+    <PageLayout title="Home">
+      <ProfileList/>
+    </PageLayout>
+  );
 }
 
-export default HomePage
+export default HomePage;
