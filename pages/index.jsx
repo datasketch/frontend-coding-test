@@ -1,5 +1,5 @@
 function HomePage() {
-  return <p>Página de inicio</p>
+  return <p className='text-3xl font-bold underline'>Página de inicio</p>;
 }
 
-export default HomePage
+export default HomePage;
