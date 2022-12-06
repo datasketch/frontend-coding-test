@@ -1,0 +1,26 @@
+.main {
+  padding: 1rem 2rem;
+  height: 100vh;
+  transition: var(--main-transition);
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100% - 40px);
+  gap: 2rem;
+  transition: var(--main-transition);
+}
+
+.tasks__container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  height: 100%;
+  width: 100%;
+  gap: 1rem;
+  border: var(--main-border);
+  border-radius: 15px;
+  transition: var(--main-transition);
+}

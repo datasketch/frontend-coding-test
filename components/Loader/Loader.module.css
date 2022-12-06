@@ -1,0 +1,17 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  transition: var(--main-transition);
+}
+
+.miniLoader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+  transition: var(--main-transition);
+}

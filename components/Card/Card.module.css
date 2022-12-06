@@ -1,0 +1,16 @@
+.person {
+  border: 1px solid #eaeaea;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  padding: 10px;
+  height: 100px;
+  cursor: pointer;
+  background-color: #fafafa;
+  transition: var(--main-transition);
+}
+
+.person__details {
+  transition: var(--main-transition);
+}
