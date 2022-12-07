@@ -7,7 +7,7 @@
 .cards__list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 1rem;
+  grid-gap: 0.5rem 1rem;
   width: 100%;
   animation: fadeIn 0.5s ease;
   transition: var(--main-transition);
@@ -19,5 +19,11 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cards__list {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }

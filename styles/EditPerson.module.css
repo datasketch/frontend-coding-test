@@ -1,0 +1,24 @@
+.main {
+  padding: 2rem 2rem;
+  height: 100vh;
+  transition: var(--main-transition);
+}
+
+.editPerson {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 4rem);
+  width: 100%;
+  animation: var(--main-animation);
+  transition: var(--main-transition);
+}
+
+@media screen and (max-height: 850px) {
+  .main {
+    height: auto;
+  }
+  .editPerson {
+    height: auto;
+  }
+}

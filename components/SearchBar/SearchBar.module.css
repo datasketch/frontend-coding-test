@@ -7,3 +7,31 @@
   width: 100%;
   transition: var(--main-transition);
 }
+
+.searchBar__filter {
+  background-color: black;
+  border: none;
+  transition: var(--main-transition);
+}
+
+.searchBar__filter:hover {
+  background-color: #9283ac;
+  color: white;
+  transition: var(--main-transition);
+}
+.searchBar__filter:active {
+  background-color: black;
+  color: white;
+  transition: var(--main-transition);
+}
+
+@media screen and (max-width: 500px) {
+  .searchBar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .searchBar__filter {
+    width: 100%;
+  }
+}

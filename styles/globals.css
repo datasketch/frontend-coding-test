@@ -3,13 +3,23 @@
 :root {
   --main-border: 1px solid #eaeaea;
   --main-transition: all 200ms ease-out;
+  --main-animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Inter", sans-serif !important;
+  font-family: "Inter", sans-serif;
 }
 
 a {
@@ -18,7 +28,7 @@ a {
 }
 
 p {
-  font-family: "Inter", sans-serif !important;
+  font-family: "Inter", sans-serif;
 }
 
 * {

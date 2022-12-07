@@ -1,0 +1,124 @@
+.editPerson__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+  padding: 2rem;
+  border: var(--main-border);
+  border-radius: 15px;
+  gap: 0.5rem;
+  width: 100%;
+  transition: var(--main-transition);
+}
+
+.editPerson__title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  transition: var(--main-transition);
+}
+
+.editPerson__avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
+  transition: var(--main-transition);
+}
+
+.avatar {
+  max-width: 150px;
+  min-width: 100px;
+  max-height: 150px;
+  min-height: 100px;
+  width: 100%;
+  height: 100%;
+}
+
+.editPerson__input__label {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+  transition: var(--main-transition);
+}
+
+.editPerson__nickname__age {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  transition: var(--main-transition);
+}
+
+.editPerson__buttons__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  transition: var(--main-transition);
+}
+
+.editPerson__button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: var(--main-transition);
+}
+
+.submit {
+  background-color: #37af67;
+  border: 1px solid #37af67;
+  color: white;
+  transition: var(--main-transition);
+}
+
+.submit:hover {
+  background-color: white;
+  border: 1px solid #0d7f0d;
+  color: #0d7f0d;
+  transition: var(--main-transition);
+}
+
+.cancel {
+  background-color: #cc1515;
+  border: 1px solid #cc1515;
+  color: white;
+  transition: var(--main-transition);
+}
+
+.cancel:hover {
+  background-color: white;
+  border: 1px solid #7f0d0d;
+  color: #7f0d0d;
+  transition: var(--main-transition);
+}
+
+.disabled__button {
+  background-color: #bfbfbf;
+  border: 1px solid #bfbfbf;
+  color: white;
+  cursor: not-allowed;
+  transition: var(--main-transition);
+}
+
+.editPerson__avatar__badge {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: var(--main-transition);
+}
+
+@media screen and (max-width: 550px) {
+  .editPerson {
+    margin: 2rem 0;
+  }
+
+  .editPerson__form {
+    padding: 0;
+    border: none;
+    transition: var(--main-transition);
+  }
+}

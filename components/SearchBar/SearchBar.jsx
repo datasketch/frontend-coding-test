@@ -22,7 +22,9 @@ export function SearchBar({ data, handleInputChange, onOrderChange }) {
       />
 
       <Dropdown>
-        <Dropdown.Button>Order by: {selected}</Dropdown.Button>
+        <Dropdown.Button className={s.searchBar__filter}>
+          Order by: {selected}
+        </Dropdown.Button>
         <Dropdown.Menu
           aria-label="Single selection actions"
           disallowEmptySelection

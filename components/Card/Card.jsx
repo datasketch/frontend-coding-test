@@ -17,7 +17,7 @@ export function Card({ data }) {
           <User
             className={s.person__details}
             squared
-            size="xl"
+            size="lg"
             pointer
             src={img}
             name={`${name} - Age: ${age}`}

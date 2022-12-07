@@ -1,8 +1,9 @@
 // Next
 import Image from "next/image";
+import Link from "next/link";
 
 // NextUI Components
-import { Avatar, Button } from "@nextui-org/react";
+import { Avatar } from "@nextui-org/react";
 
 // Local Components
 import { Loader } from "../Loader/Loader";
@@ -11,7 +12,7 @@ import { Loader } from "../Loader/Loader";
 import s from "./ProfileDetails.module.css";
 
 export function ProfileDetails({ error, loading, data }) {
-  const { fullName, age, occupation, nickname, gender, picture } = data;
+  const { id, fullName, age, occupation, nickname, gender, picture } = data;
 
   return (
     <div className={s.profile__container}>
@@ -22,7 +23,15 @@ export function ProfileDetails({ error, loading, data }) {
       ) : (
         <>
           <div className={s.profile__avatar}>
-            <Avatar src={picture} alt={fullName} className={s.avatar} />
+            <Avatar
+              src={
+                picture && picture.slice(0, 4) === "http"
+                  ? picture
+                  : "/default.jpg"
+              }
+              alt={fullName}
+              className={s.avatar}
+            />
           </div>
           <h1 className={s.profile__name}>{fullName}</h1>
           <p className={s.profile__info__title}>User information</p>
@@ -32,22 +41,17 @@ export function ProfileDetails({ error, loading, data }) {
           <p className={s.profile__info}>Gender: {gender}</p>
 
           {/* Edit Button */}
-
-          <Button
-            icon={
+          <Link href={`/profile/${id}/edit`}>
+            <button className={s.profile__editButton}>
               <Image
                 src="/icons/editar.svg"
                 alt="Edit"
                 width={20}
                 height={20}
               />
-            }
-            color="primary"
-            size="md"
-            className={s.profile__editButton}
-          >
-            Edit Profile Info
-          </Button>
+              Edit Profile Info
+            </button>
+          </Link>
         </>
       )}
     </div>

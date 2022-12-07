@@ -4,3 +4,4 @@ export * from "./SearchBar/SearchBar";
 export * from "./Loader/Loader";
 export * from "./ProfileDetails/ProfileDetails";
 export * from "./TasksCard/TasksCard";
+export * from "./EditProfileForm/EditProfileForm";
