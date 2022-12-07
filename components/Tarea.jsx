@@ -16,12 +16,12 @@ const Tarea = ({ tarea, setTareaEditar, eliminarAlgoDelArreglo, setTrayendoTarea
   const observandoComportamiento = (tarea) => {
     let switchedBoton
     if (tarea.completada == 'No completada') {
-       switchedBoton = trayendoTareas.filter(element => element.id == tarea.id ? tarea.completada = 'completada' : null)
+      switchedBoton = trayendoTareas.filter(element => element.id == tarea.id ? tarea.completada = 'completada' : null)
     } else {
-       switchedBoton = trayendoTareas.filter(element => element.id == tarea.id ? tarea.completada = 'No completada' : null)
+      switchedBoton = trayendoTareas.filter(element => element.id == tarea.id ? tarea.completada = 'No completada' : null)
     }
-       switchedBoton = switchedBoton[0]
-       let arregloNuevo = trayendoTareas.map(element => element.id == tarea.id ? switchedBoton : element)
+    switchedBoton = switchedBoton[0]
+    let arregloNuevo = trayendoTareas.map(element => element.id == tarea.id ? switchedBoton : element)
     setTrayendoTareas(arregloNuevo)
 
     setEstado(!estado)
