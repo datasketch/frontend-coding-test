@@ -52,7 +52,6 @@ const ListadoTareas = ({ cliente }) => {
                             </>
                         }
 
-
                     </div>
                 </div>
             </div>
