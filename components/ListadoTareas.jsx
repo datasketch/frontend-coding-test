@@ -7,6 +7,7 @@ const ListadoTareas = ({ cliente }) => {
     const [tareasFiltradas, setTareasFiltradas] = useState([])
     const [tareaEditar, setTareaEditar] = useState({})
 
+
     useEffect(() => {
         let filtro = trayendoTareas.filter(element => element.usuarioCreador == cliente.id)
         setTareasFiltradas(filtro)
@@ -40,6 +41,9 @@ const ListadoTareas = ({ cliente }) => {
                                         tarea={tarea}
                                         setTareaEditar={setTareaEditar}
                                         eliminarAlgoDelArreglo={eliminarAlgoDelArreglo}
+                                        setTrayendoTareas={setTrayendoTareas}
+                                        trayendoTareas={trayendoTareas}
+
                                     />
                                 ))}
                             </> :

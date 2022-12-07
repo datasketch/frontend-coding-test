@@ -28,6 +28,7 @@ const FormularioTareas = ({setTrayendoTareas, cliente,tareaEditar}) => {
             nombre,
             nombrePropietario,
             descripcion,
+            completada: 'No completada'
         }
 
         if(tareaEditar.id){
