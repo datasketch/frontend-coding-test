@@ -21,8 +21,8 @@ function HomePage() {
 
   return (
     <>
-      <h1 className="font-black text-4xl text-blue-900">Clientes</h1>
-      <p className="mt-3">Administra  tus clientes</p>
+      <h1 className="font-black text-4xl ml-10 mt-5  text-blue-900">Clientes</h1>
+      <p className="mt-5 ml-10 ">Administra  tus clientes</p>
       <table className="w-full mt-5 table-auto shadow bg-white">
         <thead className="bg-blue-800 text-white">
           <tr>
