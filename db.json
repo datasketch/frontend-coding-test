@@ -10,13 +10,13 @@
       "picture": "https://randomuser.me/api/portraits/lego/1.jpg"
     },
     {
-      "id": 2,
       "fullName": "Jane Smith",
-      "age": 27,
-      "occupation": "Doctor",
       "nickname": "Jane",
+      "age": 27,
       "gender": "Female",
-      "picture": "https://randomuser.me/api/portraits/lego/2.jpg"
+      "picture": "https://randomuser.me/api/portraits/lego/2.jpg",
+      "occupation": "Doctor",
+      "id": 2
     },
     {
       "id": 3,

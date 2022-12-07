@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
 import { useEffect } from 'react'
+import Formulario from '../../components/Formulario'
 
 
 export default () => {
@@ -33,13 +34,13 @@ export default () => {
     return (
 
          <>
-      <h1 className="font-black text-4xl text-blue-900">Editar Cliente</h1>
-      <p className="mt-3">Utiliza este formulario para editar datos de un cliente</p>
-      {/* {cliente?.nombre ? (
+      <h1 className="font-black text-4xl text-blue-900 m-6">Editar Perfil</h1>
+      <p className="mt-3 m-6">Utiliza este formulario para editar los datos de tu perfil</p>
+      {cliente.fullName ? (
         <Formulario
           cliente={cliente}
         />
-      ) : 'No se encontro Usuario'} */}
+      ) : 'No se encontro Usuario'}
 
     </>
     )
