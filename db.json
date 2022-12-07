@@ -10,13 +10,13 @@
       "picture": "https://randomuser.me/api/portraits/lego/1.jpg"
     },
     {
-      "id": 2,
       "fullName": "Jane Smith",
-      "age": 27,
-      "occupation": "Doctor",
       "nickname": "Jane",
+      "age": 27,
       "gender": "Female",
-      "picture": "https://randomuser.me/api/portraits/lego/2.jpg"
+      "picture": "https://randomuser.me/api/portraits/lego/2.jpg",
+      "occupation": "Doctor",
+      "id": 2
     },
     {
       "id": 3,
@@ -64,13 +64,13 @@
       "picture": "https://randomuser.me/api/portraits/lego/7.jpg"
     },
     {
-      "id": 8,
-      "fullName": "Samantha Taylor",
-      "age": 26,
-      "occupation": "Graphic Designer",
-      "nickname": "Sam",
-      "gender": "Female",
-      "picture": "https://randomuser.me/api/portraits/lego/8.jpg"
+      "fullName": "Ernesto Perez",
+      "nickname": "yeimmy",
+      "age": 23,
+      "gender": "male",
+      "picture": "https://stickerly.pstatic.net/sticker_pack/j21Xt4LysTuaQt8PF0mgQ/EKHJ91/9/9a903809-988d-4064-a81f-c8efab0d4004.png",
+      "occupation": "frailejon",
+      "id": 8
     },
     {
       "id": 9,
