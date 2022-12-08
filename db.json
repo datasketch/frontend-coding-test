@@ -184,7 +184,7 @@
     },
     {
       "id": 8,
-      "title": "Task 8",
+      "title": "La tarea",
       "description": "This is the eighth task on the list.",
       "completed": true,
       "startDate": "2022-12-04",
@@ -277,7 +277,7 @@
       "description": "This is the eighteenth task on the list.",
       "completed": false,
       "startDate": "2022-12-04",
-      "endDate": null,
+      "endDate": "2022-12-21",
       "personId": 8
     },
     {

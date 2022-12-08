@@ -32,7 +32,6 @@ export default function FormPage({ id, profileValues }) {
           <Field name="nickname" />
           <Field name="gender" />
           <button type="submit">Submit</button>
-          <Link href={`profile/${id}`}>volver</Link>
         </Form>
       )}
     </Formik>
