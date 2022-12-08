@@ -3,5 +3,9 @@ module.exports = {
     remotePatterns: [
       { hostname: 'randomuser.me'}
     ]
-  }
+    },
+  experimental: {
+    appDir: true
+  },
+  reactStrictMode: true
 }
