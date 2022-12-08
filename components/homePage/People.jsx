@@ -2,6 +2,8 @@
 import { useEffect, useState } from "react";
 import { fetchPeople } from "../../app/page";
 import { PersonItem } from "./PersonItem";
+import Link from "next/link";
+
 export const People = () => {
   const [filter, setFilter] = useState("younguest");
   const [listOfPeople, setListOfPeople] = useState([]);
@@ -29,7 +31,10 @@ export const People = () => {
       </select>
       <section>
         {listOfPeople.map((person, index) => (
-          <PersonItem key={index} person={person} />
+          <Link href={`/profile/${person.id}`} key={index}>
+            <PersonItem  person={person} />
+          </Link>
+
         ))}
       </section>
     </>

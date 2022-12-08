@@ -65,12 +65,39 @@
     },
     {
       "id": 8,
-      "fullName": "Samantha Taylor",
+      "fullName": "Sami",
       "age": 26,
       "occupation": "Graphic Designer",
       "nickname": "Sam",
       "gender": "Female",
-      "picture": "https://randomuser.me/api/portraits/lego/8.jpg"
+      "picture": "https://randomuser.me/api/portraits/lego/8.jpg",
+      "body": {
+        "id": 8,
+        "fullName": "Sam",
+        "age": 26,
+        "occupation": "Graphic Designer",
+        "nickname": "Sam",
+        "gender": "Female",
+        "picture": "https://randomuser.me/api/portraits/lego/8.jpg",
+        "body": {
+          "id": 8,
+          "fullName": "Sam",
+          "age": 26,
+          "occupation": "Graphic Designer",
+          "nickname": "Sam",
+          "gender": "male",
+          "picture": "https://randomuser.me/api/portraits/lego/8.jpg",
+          "body": {
+            "id": 8,
+            "fullName": "Sameeeeeeeee",
+            "age": 26,
+            "occupation": "Graphic Designer",
+            "nickname": "Sam7",
+            "gender": "Female",
+            "picture": "https://randomuser.me/api/portraits/lego/8.jpg"
+          }
+        }
+      }
     },
     {
       "id": 9,
