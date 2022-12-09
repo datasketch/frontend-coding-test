@@ -31,6 +31,7 @@ export default function FormPage({ id, profileValues }) {
           <Field name="occupation" />
           <Field name="nickname" />
           <Field name="gender" />
+          <Field name="picture" />
           <button type="submit">Submit</button>
         </Form>
       )}

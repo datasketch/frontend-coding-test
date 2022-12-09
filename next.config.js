@@ -1,7 +1,10 @@
 module.exports = {
   images: {
     remotePatterns: [
-      { hostname: 'randomuser.me'}
+
+        {hostname: 'randomuser.me'},
+      {hostname: "upload.wikimedia.org"}
+
     ]
     },
   experimental: {

@@ -33,7 +33,8 @@ export default function EditTaskForm({ id, taskValues }) {
           <Field name="description" as="textarea" />
           <Field name="completed" type="radio" />
           <Field name="startDate" type="date" />
-          <Field name="endDate" type="date" />
+           <Field name="endDate" type="date" />
+
           <button type="submit">Submit</button>
           <Link href={`profile/${id}`}>volver</Link>
         </Form>
