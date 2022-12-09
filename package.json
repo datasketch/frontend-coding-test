@@ -14,10 +14,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.17",
+    "@mui/x-data-grid": "^5.17.14",
+    "@mui/x-date-pickers": "^5.0.9",
+    "axios": "^1.2.1",
+    "dayjs": "^1.11.7",
     "json-server": "^0.17.1",
     "next": "^12.3.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "sass": "^1.56.1",
+    "sweetalert2": "^11.6.15"
   },
   "devDependencies": {
     "concurrently": "^7.6.0",
