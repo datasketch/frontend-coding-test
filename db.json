@@ -31,7 +31,7 @@
       "id": 4,
       "fullName": "Alice Williams",
       "age": 29,
-      "occupation": "Lawyer",
+      "occupation": "SINGER",
       "nickname": "Ali",
       "gender": "Female",
       "picture": "https://randomuser.me/api/portraits/lego/4.jpg"
@@ -116,6 +116,33 @@
       "nickname": "Ash",
       "gender": "Female",
       "picture": "https://randomuser.me/api/portraits/lego/1.jpg"
+    },
+    {
+      "id": 11,
+      "fullName": "Sam",
+      "age": 22,
+      "occupation": "a",
+      "nickname": "Netflix_clone",
+      "gender": "fds",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/8/89/Chris_Evans_2020_%28cropped%29.jpg"
+    },
+    {
+      "id": 12,
+      "fullName": "Kelly Chara",
+      "age": 22,
+      "occupation": "3",
+      "nickname": "Netflix_clone",
+      "gender": "fds",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/8/89/Chris_Evans_2020_%28cropped%29.jpg"
+    },
+    {
+      "id": 13,
+      "fullName": "VINI",
+      "age": 50,
+      "occupation": "a",
+      "nickname": "Netflix_clone",
+      "gender": "male",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/8/89/Chris_Evans_2020_%28cropped%29.jpg"
     }
   ],
   "tasks": [
@@ -220,8 +247,8 @@
     {
       "id": 12,
       "title": "Task 12",
-      "description": "This is the twelfth task on the list.",
-      "completed": true,
+      "description": "an edited description",
+      "completed": "",
       "startDate": "2022-12-04",
       "endDate": "2022-12-05",
       "personId": 2

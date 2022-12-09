@@ -1,7 +1,9 @@
 "use client";
-export const updateProfile = (id, body) => {
-  return fetch(`http://localhost:3001/people/${id}`, {
-    method: "PATCH",
+import {useState,useEffect} from "react";
+
+export const addOrUpdateProfile = (id, body, method, url) => {
+  return fetch(url, {
+    method: method,
     mode: "cors",
     body: JSON.stringify(body),
     headers: {
@@ -10,12 +12,21 @@ export const updateProfile = (id, body) => {
   }).then((res) => res.json());
 };
 
+
 import { Formik, Form, Field } from "formik";
 import Link from "next/link";
 
-export default function FormPage({ id, profileValues }) {
+export default function FormPage({ id, profileValues, post }) {
+  const [url, setUrl] = useState('http://localhost:3001/people')
+  useEffect(() => {
+   !post  && setUrl(`http://localhost:3001/people/${id}`)
+  }, []);
+
+  console.log(url)
+
   async function submitHandler(id, values) {
-    await updateProfile(id, values);
+    const method = post ? 'POST' : 'PATCH'
+    await addOrUpdateProfile(id, values, method, url);
   }
   return (
     <Formik
@@ -26,12 +37,12 @@ export default function FormPage({ id, profileValues }) {
     >
       {({ handleChange }) => (
         <Form>
-          <Field name="fullName" />
-          <Field name="age" type="number" />
-          <Field name="occupation" />
-          <Field name="nickname" />
-          <Field name="gender" />
-          <Field name="picture" />
+          <Field name="fullName" required />
+          <Field name="age" type="number" required />
+          <Field name="occupation" required/>
+          <Field name="nickname" required/>
+          <Field name="gender" required/>
+          <Field name="picture" required/>
           <button type="submit">Submit</button>
         </Form>
       )}

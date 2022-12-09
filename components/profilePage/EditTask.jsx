@@ -29,10 +29,10 @@ export default function EditTaskForm({ id, taskValues }) {
     >
       {({ handleChange }) => (
         <Form>
-          <Field name="title" />
-          <Field name="description" as="textarea" />
+          <Field name="title" required/>
+          <Field name="description" as="textarea" required/>
           <Field name="completed" type="radio" />
-          <Field name="startDate" type="date" />
+          <Field name="startDate" type="date" required/>
            <Field name="endDate" type="date" />
 
           <button type="submit">Submit</button>
