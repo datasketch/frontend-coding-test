@@ -324,6 +324,60 @@
       "startDate": "2022-12-04",
       "endDate": null,
       "personId": 10
+    },
+    {
+      "id": 21,
+      "title": "new task",
+      "description": "nueva tarea",
+      "completed": "",
+      "startDate": "2022-12-27",
+      "endDate": "2022-12-07",
+      "personId": 12
+    },
+    {
+      "id": 22,
+      "title": "new task on list",
+      "description": "new task on list",
+      "completed": "",
+      "startDate": "2022-12-21",
+      "endDate": "2022-12-28",
+      "personId": ""
+    },
+    {
+      "id": 23,
+      "title": "Tarea en la listA",
+      "description": "TAREA FROM THE LIST",
+      "completed": "",
+      "startDate": "2022-12-30",
+      "endDate": "2022-12-07",
+      "personId": "13"
+    },
+    {
+      "id": 24,
+      "title": "Otra tarea from the list",
+      "description": "Tarea from the list",
+      "completed": "",
+      "startDate": "2022-12-21",
+      "endDate": "2022-11-30",
+      "personId": ""
+    },
+    {
+      "id": 25,
+      "title": "tarea from the liiiiist",
+      "description": "tarea from the list",
+      "completed": "",
+      "startDate": "2022-12-08",
+      "endDate": "2022-12-27",
+      "personId": ""
+    },
+    {
+      "id": 26,
+      "title": "tarea from the liiiiist",
+      "description": "tarea from the list",
+      "completed": "",
+      "startDate": "2022-12-08",
+      "endDate": "2022-12-27",
+      "personId": "5"
     }
   ]
 }

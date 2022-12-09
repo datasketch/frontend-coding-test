@@ -14,7 +14,6 @@ export const addOrUpdateProfile = (id, body, method, url) => {
 
 
 import { Formik, Form, Field } from "formik";
-import Link from "next/link";
 
 export default function FormPage({ id, profileValues, post }) {
   const [url, setUrl] = useState('http://localhost:3001/people')
@@ -22,7 +21,6 @@ export default function FormPage({ id, profileValues, post }) {
    !post  && setUrl(`http://localhost:3001/people/${id}`)
   }, []);
 
-  console.log(url)
 
   async function submitHandler(id, values) {
     const method = post ? 'POST' : 'PATCH'
